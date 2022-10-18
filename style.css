@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding:0;
+}
+.header{
+    background:linear-gradient(rgb(40,42,53,0.90),rgb(40,42,53,0.90)), url('img/bg-img.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width:100%;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.btn-gs{
+    width:50%;
+    border-radius:20px;
+    background-color: #03a96c;
+    color:white;
+    border:none;
+    padding:0.5em 1em;
+}
+
+.info{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:100%;
+}
+/* Medium screen */
+@media screen and (max-width:992px) {
+    .info{
+        grid-template-columns: 1fr 1fr;
+    }
+  } 
+  /* Small screen */
+@media screen and (max-width:767px) {
+    .info{
+        grid-template-columns: 1fr;
+    }
+  } 
+.card{
+    text-align: center;
+    margin-top:10px;
+    /* width:492px; */
+    border:0 white solid;
+    /* flex-grow:1; */
+}
+.info>.card{
+    border: none;
+}
+.info h5{
+    color:#03a96c;
+    font-size: 25px;
+}
+.info p{
+    margin-top:5px;
+    font-size: 14px;
+}
+.details{
+    margin-top:20px;
+    height:300px;
+    background-color: #282a36;
+}
+.details h2{
+    padding-top:20px;
+    text-align: center;
+    color:white;
+}
+.flex-cont-icons{
+    margin-top:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+/* 
+.flex-cont p{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+} */
+.details p{
+    width:250px;
+}
+.details .text-content{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    font-size: 20px;
+    color:white;
+}
+.details .mobile{
+    display:none;
+}
+.pricing{
+    padding:20px 10px;
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+    column-gap: 10px;
+    background-color: #eeeeee;
+}
+.pricing .card{
+    max-width: 100%;
+    padding: 20px 10px;
+}
+.pricing ul{
+    list-style: none;
+    font-size:20px;
+}
+.circle-icon{
+    height:20px;
+    margin-right:5px;
+    
+}
+.pricing p{
+    text-align: left;
+    font-size:20px;
+}
+.pricing .price {
+    font-size: 30px;
+}
+.pricing .plan{
+    font-size:30px;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer p{
+    margin:0;
+    color:darkgray;
+    font-size:20px;
+    width:fit-content;
+}
+.footer .info{
+    color:gray;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
