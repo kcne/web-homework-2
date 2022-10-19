@@ -183,6 +183,26 @@ p.text-medium.text-content{
 .pricing .plan{
     font-size:30px;
 }
+@media screen and (max-width:992px) {
+    .pricing{
+        grid-template-columns: 1fr 1fr;
+    } 
+  } 
+  @media screen and (max-width:767px) {
+    .info{
+        grid-template-columns: 1fr;
+    }
+  } 
+  @media screen and (max-width:992px) {
+    .pricing{
+        grid-template-columns: 1fr;
+    } 
+  } 
+  @media screen and (max-width:767px) {
+    .info{
+        grid-template-columns: 1fr;
+    }
+  } 
 .footer{
     margin-top: 20px;
     margin-bottom: 40px;
@@ -207,8 +227,7 @@ p.text-medium.text-content{
 @media screen and (max-width:992px) {
     .info{
         grid-template-columns: 1fr 1fr;
-    }
-    
+    } 
   } 
   /* Small screen */
 @media screen and (max-width:767px) {
