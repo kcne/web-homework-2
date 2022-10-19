@@ -189,17 +189,7 @@ p.text-medium.text-content{
     } 
   } 
   @media screen and (max-width:767px) {
-    .info{
-        grid-template-columns: 1fr;
-    }
-  } 
-  @media screen and (max-width:992px) {
     .pricing{
-        grid-template-columns: 1fr;
-    } 
-  } 
-  @media screen and (max-width:767px) {
-    .info{
         grid-template-columns: 1fr;
     }
   } 
