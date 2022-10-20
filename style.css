@@ -167,6 +167,8 @@ p.text-medium.text-content{
 .pricing ul{
     list-style: none;
     font-size:20px;
+    text-align: left;
+    padding-left:15px;
 }
 .circle-icon{
     height:20px;
@@ -175,7 +177,11 @@ p.text-medium.text-content{
 }
 .pricing p{
     text-align: left;
-    font-size:20px;
+    font-size:18px;
+}
+.price span{
+    font-size:15px;
+    font-weight: 700;
 }
 .pricing .price {
     font-size: 30px;
