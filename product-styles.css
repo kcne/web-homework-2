@@ -26,6 +26,7 @@ body{
 }
 .imgz{
     width:100%;
+    height:100%;
 }
 
 /* TODO: fix spacing issues! */
@@ -53,7 +54,7 @@ body{
     grid-row: 1/2;
     grid-column: 2/3;
     display:grid;
-    grid-template-rows: 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns:1fr; 
     background-color: #f2f2f2;
     row-gap: 10px;
