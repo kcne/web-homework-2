@@ -127,6 +127,7 @@ body{
 }
 .bucket{
     border-top:1px #e4e4e4 solid;
+    border-bottom:1px #e4e4e4 solid;
 }
 .font-size-small{
     font-size:13px;
@@ -166,4 +167,21 @@ body{
     margin-left:3%;
     padding:5px 15px;
     color:white;
+}
+.select-location{
+    background-color:#ffefe5;
+    color:#e9782c;
+    border:none;
+    border-radius: 4px;
+    padding:5px 12px;
+}
+.shipping{
+    
+}
+.supply-container{
+    margin-top:10px;
+    height:fit-content;
+    background-color:white;
+    padding:10px;
+    border-radius: 5px;
 }
