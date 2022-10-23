@@ -176,7 +176,6 @@ body{
     padding:5px 12px;
 }
 .shipping{
-    
 }
 .supply-container{
     margin-top:10px;
@@ -184,4 +183,16 @@ body{
     background-color:white;
     padding:10px;
     border-radius: 5px;
+}
+.rounded-cont{
+    background-color: white;
+    height: 90%;
+}
+.rounded-cont p{
+    font-size: 15px;
+}
+.rounded-cont .add-to-card-btn{
+    padding:0 40px;
+    font-size:10px;
+    
 }
