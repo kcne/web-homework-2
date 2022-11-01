@@ -9,6 +9,7 @@ body{
     padding-top:10px;
     
 }
+
 .container{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -19,6 +20,8 @@ body{
     padding-left:0;
     padding-right: 0;
 }
+
+
 .image{
     grid-column: 1/2;
     grid-row:1/2;
@@ -27,6 +30,7 @@ body{
 .imgz{
     width:100%;
     height:100%;
+
 }
 
 /* TODO: fix spacing issues! */
@@ -230,4 +234,35 @@ body{
 }
 .add-heading{
     font-size:18px;
+}
+.container-fluid > .container{
+    padding-left:0px;
+}
+
+@media screen and (max-width:992px) {
+    .row-span{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .description{
+        grid-column: 1/3;
+        grid-row:2/3;
+    }
+    .details{
+        grid-column: 1/3;
+        grid-row:3/4;
+    }
+    .alternative{
+        grid-column: 1/3;
+        grid-row:4/5;
+    }
+    body>.container-fluid{
+        width:100%;
+        padding:0;
+    }
+    .container-fluid>.container{
+        padding:10px;
+        width:100%;
+        max-width: 100%;
+    }
 }
