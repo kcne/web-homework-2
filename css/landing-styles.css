@@ -7,7 +7,7 @@
     padding:0;
 }
 .header{
-    background:linear-gradient(rgb(40,42,53,0.90),rgb(40,42,53,0.90)), url('img/bg-img.jpg');
+    background:linear-gradient(rgb(40,42,53,0.90),rgb(40,42,53,0.90)), url('../img/bg-img.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 50%;
